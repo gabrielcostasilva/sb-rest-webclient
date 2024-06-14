@@ -15,7 +15,7 @@ import org.springframework.test.web.client.response.MockRestResponseCreators;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@RestClientTest(PostClient.class)
+@RestClientTest({PostClient.class, PostInterceptor.class})
 class PostClientTest {
 
     @Autowired
