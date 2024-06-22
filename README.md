@@ -13,3 +13,5 @@ Each folder groups a single REST client as follows:
 - [_RestClient Web - Interface HEADERS_](./restclient-web-interface-headers) extends the [_RestClient Web - Interface_](./restclient-web-interface/) to show how to access request header data.
 
 - [_RestClient Test_](./rest-client-test/) tests a REST Client using a MockServer and @RestClientTest. 
+
+- [_RestClient Interceptor_](./rest-client-interceptor/) uses interceptors to add/extract information to a request. 
